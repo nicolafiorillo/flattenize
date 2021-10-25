@@ -20,11 +20,11 @@ iex> Flattenize.flattenize([[], [], [], [[], [], []]])
 ## Run tests using docker image
 
 ```Bash
-docker build -t flattenize .`
+docker build -t flattenize .
 ```
 
 ## Remove built docker image
 
 ```Bash
-docker rmi flattenize`
+docker rmi flattenize
 ```
