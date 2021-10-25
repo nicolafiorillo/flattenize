@@ -19,8 +19,12 @@ Module to flattenize an array of arrays (item type agnostic).
 
 ## Run tests using docker image
 
-`docker build -t flattenize .`
+```Bash
+docker build -t flattenize .`
+```
 
 ## Remove built docker image
 
-`docker rmi flattenize`
+```Bash
+docker rmi flattenize`
+```
